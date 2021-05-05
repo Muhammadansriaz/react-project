@@ -74,7 +74,7 @@ function App() {
   return (
     <div id="main">
       <form onSubmit={PrintValue}>
-        NAME
+        NAME:❤️
         <input
           value={value}
           onChange={(ev) => {
