@@ -27,6 +27,8 @@ jobs:
       uses: actions/setup-node@v2-beta
       with: 
         version: 12
+    - name: create build
+      run: yarn build
     
     - name: installing surge  
       run: npm install -g surge
