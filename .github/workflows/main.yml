@@ -41,4 +41,4 @@ steps:
   run: npm install -g surge
 
 -name: Deploying using surge
- run: surge ./build http://roasted-time-ansali.surge.sh --token ${{secrets.SURGETOKEN}}
+ run: surge ./build http://roasted-time-ansali.surge.sh --token ${{secrets.TOKEN}}
