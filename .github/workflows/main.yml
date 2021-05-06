@@ -28,7 +28,7 @@ jobs:
       with: 
         version: 12
     - name: create build
-      run: yarn build
+      run: react-scripts build
     
     - name: installing surge  
       run: npm install -g surge
