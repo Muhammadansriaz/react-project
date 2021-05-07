@@ -85,7 +85,7 @@ function App() {
           placeholder="Name"
         />
         <br />
-        EMAIL
+        EMAIL ❤️
         <input
           value={mail}
           onChange={(ev) => {
